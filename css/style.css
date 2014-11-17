@@ -30,7 +30,7 @@ line-height: 50.4000015258789px;
 margin-bottom: 10px;
 margin-left: 0px;
 margin-right: 0px;
-margin-top: 170px;
+margin-top: 140px;
 text-align: center;
 text-rendering: geometricprecision;
 text-transform: none;
@@ -54,7 +54,7 @@ width: 1280px;
 
 .id8menu {
 	/*background-color:rgb(57, 69, 75);*/
-	background-color:rgb(43, 52, 56);
+	/*background-color:rgb(43, 52, 56);*/
 	height:4.5em;
 }
 
@@ -84,12 +84,21 @@ width: 1280px;
   box-shadow: none;
 }
 
+html {
+	background-image: url(../bg/artist-studio.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    height: 100%;
+  overflow: hidden;
+}
+
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
 
 	body {
-		background: rgb(57, 69, 75);
+		/*background: rgb(57, 69, 75);*/
 	}
 
 		body.loading {
