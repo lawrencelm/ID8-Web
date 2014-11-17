@@ -30,8 +30,8 @@ line-height: 50.4000015258789px;
 margin-bottom: 10px;
 margin-left: 0px;
 margin-right: 0px;
-margin-top: 140px;
-text-align: center;
+margin-top: 27%;
+/*text-align: center;*/
 text-rendering: geometricprecision;
 text-transform: none;
 width: 1280px;
@@ -55,6 +55,11 @@ width: 1280px;
 .id8menu {
 	/*background-color:rgb(57, 69, 75);*/
 	/*background-color:rgb(43, 52, 56);*/
+	height:4.5em;
+}
+
+#banner {
+	background-image: url(../bg/overlay.png);
 	height:4.5em;
 }
 
@@ -93,6 +98,10 @@ html {
   overflow: hidden;
 }
 
+.highlight {
+	background-color:rgb(57, 69, 75);
+
+}
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
