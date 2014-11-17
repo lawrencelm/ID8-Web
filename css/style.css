@@ -58,9 +58,13 @@ width: 1280px;
 	height:4.5em;
 }
 
+div.wrapper {
+	position:relative;
+}
+
 #banner {
 	background-image: url(../bg/overlay.png);
-	height:4.5em;
+	height:150%;
 }
 
 /* #Clouds Flat Button
